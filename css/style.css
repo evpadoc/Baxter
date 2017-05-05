@@ -1,6 +1,8 @@
 body {
 	font-size: 16px;
 	font-family: Arial, sans-serif;
+	background: linear-gradient(#1d1e1b 10px, #dcdddb 8px) no-repeat;
+	background-size: 100% 18px;
 }
 
 
@@ -18,7 +20,7 @@ body {
 	outline: 0px solid #ccc;
 }
 
-.topLine {
+/*.topLine {
 	height: 10px;
 	background: #1d1e1b;
 }
@@ -26,7 +28,7 @@ body {
 .bottomLine {
 	height: 8px;
 	background: #dcdddb;
-}
+}*/
 
 /* Начало блока header*/
 
@@ -34,7 +36,6 @@ header {
 	height: 157px;
 	outline: 0px solid #cc0000;
 	position: relative;
-
 }
 
 .logo {
@@ -58,7 +59,7 @@ header {
 	background: url(../img/faq.png) no-repeat;
 	position: absolute;
 	right: 43px;
-	top: -18px;
+	top: 1px;
 }
 
 .faq a{
@@ -67,6 +68,31 @@ header {
 }
 
 .main-navigation {
+	width: 525px;
+	margin: 0 auto;
+	margin-left: 375px;
+	padding: 0;
+	padding-top: 62px;
+	font-size: 0;
+	outline: 0px solid #cccccc;
+}
+
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	list-style: none;
+}
+
+.main-navigation li a {
+	display: block;
+	margin-right: 30px;
+	text-decoration: none;
+	color: #3f3f3f;
+}
+
+/*.main-navigation {
 	position: absolute;
 	top: 46px;
 	left: 337px;
@@ -84,7 +110,7 @@ header {
 .main-navigation li a {
 	text-decoration: none;
 	color: #3f3f3f;
-}
+}*/
 
 .main-navigation li a.active,
 .main-navigation li a:hover {
